@@ -28,8 +28,12 @@ Na página da versão, abra **Assets** e baixe **Secom-Drive-Windows-x64.zip**.
 
 ## Atualizações
 
-As novas versões ficam em [Releases](https://github.com/secomprodu-cyber/secom-drive/releases). Para receber avisos do GitHub, entre na sua conta e use **Watch → Custom → Releases** neste repositório.
+A partir da versão **1.2.0**, o Secom verifica novas versões ao abrir e a cada seis horas, baixa em segundo plano e instala na próxima abertura, antes de conectar a unidade. Conta, configurações e cache são preservados. A versão instalada e o estado da atualização aparecem no aplicativo. Para consultar imediatamente, use **Verificar atualizações** no ícone junto ao relógio.
 
-Nesta versão, a instalação das atualizações é manual. Antes de instalar um pacote novo, aguarde os envios terminarem, feche os arquivos de S: nos programas de edição e encerre o Secom. O instalador preserva a conta e o cache da instalação de destino.
+**Quem está na versão 1.1.0 precisa instalar a 1.2.0 manualmente uma única vez.** Antes de instalar ou aplicar uma atualização pronta, termine os envios, feche os arquivos de S: e use **Desconectar e sair**. Depois abra o Secom novamente. Fechar apenas a janela mantém o programa em segundo plano.
+
+O canal acompanha Releases estáveis marcadas como Latest, com número maior e os três anexos de distribuição. Enviar commits ao repositório não publica uma atualização do aplicativo.
+
+As versões ficam em [Releases](https://github.com/secomprodu-cyber/secom-drive/releases). Para receber também avisos do GitHub, use **Watch → Custom → Releases**.
 
 O arquivo **Secom-Drive-Windows-x64.zip.sha256.txt** acompanha cada versão para verificar a integridade do download.
